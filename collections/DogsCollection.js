@@ -5,7 +5,7 @@ DogsSchema = new SimpleSchema({
     type: String,
   },
   photo: {
-    type: 'Image',
+    type: String,
     autoform:{
       afFieldInput: {
         type: 'afImage',
@@ -13,6 +13,5 @@ DogsSchema = new SimpleSchema({
     }
   },
 });
-
 
 Dogs.attachSchema(DogsSchema);
