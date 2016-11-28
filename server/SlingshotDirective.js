@@ -1,5 +1,5 @@
 Slingshot.createDirective("myFileUploads", Slingshot.S3Storage, {
-  bucket: "test-bucket-autoform",
+  bucket: Meteor.settings.AWSBucket,
 
   acl: "public-read",
 
