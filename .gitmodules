@@ -1,0 +1,3 @@
+[submodule "packages/autoform-images"]
+	path = packages/autoform-images
+	url = git@github.com:macsj200/autoform-images.git
