@@ -6,12 +6,6 @@ DogsSchema = new SimpleSchema({
   },
   photo: {
     type: Array,
-    autoform:{
-      template:'addImageParentTemplate',
-      afFieldInput: {
-        type: 'afImageParent',
-      }
-    }
   },
   'photo.$':{
     type:String,
