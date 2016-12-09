@@ -47,7 +47,7 @@ lepozepo:s3@5.2.4
 livedata@1.0.18
 localstorage@1.0.12
 logging@1.1.16
-maxjohansen:autoform-images@0.0.5
+maxjohansen:autoform-images@0.0.7
 mdg:validation-error@0.5.1
 meteor@1.6.0
 meteor-base@1.0.4
